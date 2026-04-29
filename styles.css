@@ -1,0 +1,167 @@
+/* Base page style used on every page */
+body {
+  margin: 0;
+  padding: 24px;
+  background-color: rgb(240, 248, 255);
+  color: rgb(26, 58, 92);
+  font-family: Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+/* Background colour helper for pages that use the orange theme */
+.bg-one{
+  background-color: rgb(255, 165, 24);
+}
+
+/* Background colour helper for pages that use the green theme */
+.bg-two{
+  background-color: rgb(24, 255, 165);
+}
+
+/* Center the main page title area */
+header {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* Main title styling */
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  color: rgb(26, 58, 92);
+}
+
+/* Subtitle styling */
+h2 {
+  margin: 8px 0 0;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  color: rgb(46, 109, 164);
+}
+
+/* Standard heading style for content sections */
+h3 {
+  margin: 20px 0 8px;
+  font-family: Georgia, serif;
+  color: rgb(26, 58, 92);
+}
+
+/* Optional class to center only selected headings */
+.center-heading {
+  text-align: center;
+}
+
+/* Horizontal divider between sections */
+hr {
+  border: 0;
+  margin-top: 20px;
+  border-top: 1px solid rgb(191, 211, 230);
+}
+
+/* Navigation bar wrapper */
+nav {
+  margin: 16px 0;
+  text-align: center;
+}
+
+/* Remove default spacing from nav paragraph */
+nav p {
+  margin: 0;
+}
+
+/* Base style for navigation links */
+.nav-link {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid rgb(26, 58, 92);
+  border-radius: 4px;
+  color: rgb(26, 58, 92);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Add spacing between nav buttons */
+.nav-link + .nav-link {
+  margin-left: 12px;
+}
+
+/* Highlight the link for the page you are currently on */
+.nav-link.active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 58, 92);
+}
+
+/* Keep paragraph spacing tidy inside the main content area */
+main p {
+  margin-top: 0;
+}
+
+/* Utility class to center images and their captions */
+.image-center {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Shared responsive sizing for main and thumbnail images */
+.hero-image,
+.thumb-image {
+  width: 50vw;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Small helper text under images */
+.image-note {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  color: rgb(85, 85, 85);
+}
+
+/* Center list blocks while keeping bullet/number indentation */
+ol,
+ul {
+  margin: 0 auto;
+  padding-left: 24px;
+  width: fit-content;
+}
+
+/* Global link colour */
+a {
+  color: rgb(46, 109, 164);
+}
+
+/* Quote callout style */
+.quote {
+  margin: 20px 0;
+  padding-left: 16px;
+  border-left: 4px solid rgb(46, 109, 164);
+  color: rgb(46, 109, 164);
+}
+
+/* Keep address text upright instead of italic */
+address {
+  font-style: normal;
+}
+
+/* Small jump-link style */
+.jump-link {
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
+/* Remove border from icon images */
+.icon-image {
+  border: 0;
+}
+
+/* Footer alignment and text colour */
+footer {
+  text-align: center;
+  color: rgb(136, 136, 136);
+}
+
+/* Slightly smaller text for the footer note */
+.footer-text {
+  font-size: 0.85rem;
+}
