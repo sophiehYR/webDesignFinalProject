@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#006AA7"/>
+  <!-- Nordic cross - horizontal bar -->
+  <rect x="2" y="13" width="28" height="6" fill="#FECC02" rx="1.5"/>
+  <!-- Nordic cross - vertical bar (offset left, authentic Nordic style) -->
+  <rect x="10" y="2" width="6" height="28" fill="#FECC02" rx="1.5"/>
+</svg>
